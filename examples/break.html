@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>缩进 | Chengwei 的 Python 学习笔记</title>
+        <title>break | Chengwei 的 Python 学习笔记</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.5.0">
@@ -19,10 +19,8 @@
         
     
     
-    <link rel="next" href="../operator-and-expression/README.html" />
     
-    
-    <link rel="prev" href="../basic-concept/line.html" />
+    <link rel="prev" href="../examples/for.html" />
     
 
         
@@ -34,7 +32,7 @@
 
 
         
-    <div class="book" data-level="1.5" data-basepath=".." data-revision="1422244328078">
+    <div class="book" data-level="4.4" data-basepath=".." data-revision="1422244328078">
     
 
 <div class="book-summary">
@@ -147,7 +145,7 @@
         </li>
     
         
-        <li class="chapter active" data-level="1.5" data-path="basic-concept/indent.html">
+        <li class="chapter " data-level="1.5" data-path="basic-concept/indent.html">
             
                 
                     <a href="../basic-concept/indent.html">
@@ -389,7 +387,7 @@
         </li>
     
         
-        <li class="chapter " data-level="4.4" data-path="examples/break.html">
+        <li class="chapter active" data-level="4.4" data-path="examples/break.html">
             
                 
                     <a href="../examples/break.html">
@@ -498,11 +496,19 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_4">
+                    <section class="normal" id="section-gitbook_15">
                     
-                        <h1 id="">缩进</h1>
-<p>行首缩进在 Python 中非常重要，Python 使用行首缩进来表示代码块，而不是 C 语言中的大括号。所以，错误的缩进还引发错误。</p>
+                        <h1 id="break-">break 语句</h1>
+<pre><code>#!/usr/bin/env python
 
+while True:
+    s = raw_input(&quot;your name(type &#39;quit&#39; to quit):&quot;)
+    if s == &quot;quit&quot;:
+        break
+    print &quot;your name is&quot;, s
+else:
+    print &quot;while finished.&quot;
+</code></pre>
                     
                     </section>
                 
@@ -512,10 +518,8 @@
         </div>
 
         
-        <a href="../basic-concept/line.html" class="navigation navigation-prev " aria-label="Previous page: 代码行"><i class="fa fa-angle-left"></i></a>
+        <a href="../examples/for.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: for"><i class="fa fa-angle-left"></i></a>
         
-        
-        <a href="../operator-and-expression/README.html" class="navigation navigation-next " aria-label="Next page: 运算符和表达式"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
