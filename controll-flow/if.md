@@ -6,7 +6,7 @@
 
 例如：
 
-```
+```python
 if True:
 	print "True"
 	print "Second expression in code block"

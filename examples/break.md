@@ -1,6 +1,6 @@
 # break 语句
 
-```
+```python
 #!/usr/bin/env python
 
 while True:

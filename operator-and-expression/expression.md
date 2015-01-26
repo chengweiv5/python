@@ -4,14 +4,14 @@
 
 例如：
 
-```
+```python
 a = 5
 print "a is", a
 ```
 
 会输出
 
-```
+```python
 a is 5
 ```
 

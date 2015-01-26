@@ -1,6 +1,6 @@
 # if 语句
 
-```
+```python
 #!/usr/bin/env python
 
 age = 23
